@@ -78,7 +78,7 @@ SENDMAIL_ALL_POSTFIX = False
 #SHARE_FUCK_GFW_SRV: (For users in China)如果你要翻墙的话，请设置为其中一个转发服务器
 #翻墙转发服务器源码：http://github.com/cdhigh/forwarder
 #SHARE_FUCK_GFW_SRV = "http://forwarder.ap01.aws.af.cm/?k=xzSlE&t=60&u=%s"
-SHARE_FUCK_GFW_SRV = "http://xxxx.herokuapp.com/?k=xzSlE&t=60&u=%s"
+SHARE_FUCK_GFW_SRV = "http://kindleear.herokuapp.com/?k=lalala&t=60&u=%s"
 SAVE_TO_EVERNOTE = u"Save to Evernote"
 SAVE_TO_WIZ = u"Save to Wiz"
 SAVE_TO_POCKET = u"Save to Pocket"
