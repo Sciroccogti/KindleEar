@@ -53,6 +53,8 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 	`appcfg.py update app.yaml module-worker.yaml`\
 	`update appcfg.py ./`
 	
+	>更新代码方法：`git pull https://github.com/Sciroccogti/zyfs-KindleEar.git`
+	
 # 许可协议
 KindleEar is licensed under the [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html) license.  
 大体的许可框架是此应用代码你可以任意使用，任意修改，可以商用，但是必须将你修改后的代码开源并保留原始版权声明。
