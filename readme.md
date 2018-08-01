@@ -71,7 +71,8 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 	git clone https://github.com/Sciroccogti/zyfs-KindleEar.git
 	cd zyfs-KindleEar
 	gcloud app create
-	update appcfg.py
+	appcfg.py update app.yaml module-worker.yaml
+	update appcfg.py ./
 	
 # 许可协议
 KindleEar is licensed under the [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html) license.  
