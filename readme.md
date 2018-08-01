@@ -65,6 +65,14 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 3. 将KindleEar目录放到Uploader目录下，双击uploader.bat即开始上传，根据提示输入你的相关信息即可，在第一次成功部署之后，适用uploader再次升级KindleEar则不需要再次输入。  
 **此uploader仅适用于Windows系统。**
 
+# 使用gcloud platform部署
+	https://console.cloud.google.com/home/dashboard?project=XXXX
+	在terminal中:
+	git clone https://github.com/Sciroccogti/zyfs-KindleEar.git
+	cd zyfs-KindleEar
+	gcloud app create
+	update appcfg.py
+	
 # 许可协议
 KindleEar is licensed under the [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html) license.  
 大体的许可框架是此应用代码你可以任意使用，任意修改，可以商用，但是必须将你修改后的代码开源并保留原始版权声明。
