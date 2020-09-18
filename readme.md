@@ -62,7 +62,7 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 **不建议使用GAE Launcher部署KindleEar，除非你知道怎么设置Extra Flags等参数。**
 
 # 简化的部署步骤（推荐）
-  假如你不想安装python和GAE SDK，则可以选择如下三种方法之一：  
+  假如你不想安装python和GAE SDK，则可以选择如下两种方法之一：  
 
 1. 参考代码库 <https://github.com/bookfere/KindleEar-Uploader> ，里面有详细的教程和服务器脚本，也很简单。  
 
@@ -71,20 +71,6 @@ config.py          | DOMAIN      | 你申请的应用的域名        |
 2.2 [下载KindleEar-Uploader](https://drive.google.com/folderview?id=0ByRickMo9V_XNlJITzhYM3JOYW8&usp=sharing) 并解压。  
 3.3 将KindleEar目录放到Uploader目录下，双击uploader.bat即开始上传，根据提示输入你的相关信息即可，在第一次成功部署之后，适用uploader再次升级KindleEar则不需要再次输入。  
 **此uploader仅适用于Windows系统。**
-
-3. 使用Gcloud platform部署
-  1.	[设置电子邮件发件人](https://console.cloud.google.com/appengine/settings/emailsenders?project=zyfs-kindleear)
-  2.	在[terminal](https://console.cloud.google.com/home/dashboard?project=zyfs-kindleear)中:\
-	  `git clone https://github.com/Sciroccogti/zyfs-KindleEar.git`\
-	  `cd zyfs-KindleEar`\
-	  `gcloud app create`\
-	  `appcfg.py update app.yaml module-worker.yaml`\
-	  `appcfg.py update ./`
-	
-	  >更新代码方法：\
-	  `git pull https://github.com/Sciroccogti/zyfs-KindleEar.git`\
-	  `appcfg.py update app.yaml module-worker.yaml`\
-	  `appcfg.py update ./`
 
 # 许可协议
 KindleEar is licensed under the [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html) license.  
